@@ -12,7 +12,6 @@ pub enum ExecuteMsg {
     UpdateLimit { limit: Uint128 },
     UpdateLimitWithoutCheck { limit: Uint128 },
     SendTokens { recipient: String, amount: Uint128 },
-    SendTokenToContract { amount: Uint128 },
     TransferTokens { sender: String, recipient: String, amount: Uint128 },
 }
 
